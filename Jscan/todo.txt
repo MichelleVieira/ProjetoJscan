@@ -1,0 +1,22 @@
+----- PARA SEMANA -----
+
+--DEPENDENCIA DE DESENVOLVIMENTO--
+Model PC
+Mock PC
+
+--TELAS--
+PC Detail
+API Detail
+Profile
+index dev
+
+--DEPENDECIA DE OUTROS INTEGRANTES--
+conectar ao backend
+
+---- DESEJAVEL -----
+index empresa
+paginação
+click no card para ir ao funcionário
+
+--LEMBRETES--
+LEMBRAR SOBRE USAR SPAN PARA CARDS

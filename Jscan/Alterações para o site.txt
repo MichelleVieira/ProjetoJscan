@@ -1,0 +1,25 @@
+﻿O QUE FAZER ATÉ A ENTREGA DA SPRINT (25/02)
+
+-Revisao e alteracao no canvas ("romantiza-lo")
+-Revisao e alteracao na estrutura das historias de usuarios
+-Estudo dos requisitos (?)
+-Validar alteracoes com o Alex(se possivel)
+
+Problemas identificados:
+
+--Responsividade (NAO NECESSARIO PARA APRESENTACAO)
+
+-Logo do site cortado em versao mobile
+-A palavra "monitoramento" e completamente cortada na versao de telas pequenas
+-Na missao, o "Equipe JScan" e cortado em versoes do site que nao sejam desktop e missao nao esta centralizada nas mesmas
+
+--Desktop (NECESSARIO PARA APRESENTACAO)
+
+-Foto da Michele menor que as outras
+
+--Interessante resolver antes da apresentacao:
+
+-Funcionabilidade da API do Google
+-Footer funcional (facebook, linkedin e skype)
+
+--PARA SEGUNDA SPRINT : RESTLET e AZURE DevOps

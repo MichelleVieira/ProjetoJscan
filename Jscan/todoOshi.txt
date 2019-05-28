@@ -1,0 +1,12 @@
+arrumar os valores a mostra
+implementar leitura de disco
+acrescentar alerta
+validar tipo de pc (APOS BANCO)
+fazer oshi especifico para api
+
+-- Thiago
+te manda o json web token
+arrumar banco algumas tabelas
+
+---- desejável
+Slack ou telegram junto ao alerta

@@ -1,0 +1,58 @@
+
+.card{
+    width: 550px;
+   height: 350px;
+   background-color: #87CEEB;
+   margin-left: 250px;
+   margin-top:110px;
+   border-radius: 20px;
+   border-color: #87CEEB; 
+ 
+}
+
+.txt1{
+    width: 450px;
+   height: 30px;
+   margin-top: 80px;
+   margin-left:5px;
+   border-color: #87CEEB;
+
+}
+ 
+.url{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 80px;
+    margin-left:10px;
+    color: rgb(10, 10, 10);
+
+} 
+
+.nomeApi{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-right:180px;
+
+} 
+
+.txt2{
+   width: 430px;
+   height: 30px;
+   margin-top:-32px;
+   margin-left:72px;
+   border-color: #87CEEB;
+}
+
+.btnCadastro{
+    width: 200px;
+    height: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    margin-top:40px;
+    border-radius: 10px;
+    background-color: #87CEEB;
+    border-color: rgb(66, 65, 65);
+    color:  rgb(66, 65, 65);
+    margin-left: 170px;
+}

@@ -1,0 +1,12 @@
+.side-menu { margin: 0; padding: 0; background-color: #f9f9f9;}
+
+.content-guide { margin: 0; padding: 0; background-color: #f9f9f9; position: relative; }
+.content-guide::before {  position: absolute; width: 10px;  height: 100%; content: '';  top: 0; left: -10px; box-shadow: 4px 0px 6px 0px rgba(119, 120, 123, 0.07);}
+    
+   
+  
+   
+   
+   
+   
+

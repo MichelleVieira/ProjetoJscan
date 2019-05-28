@@ -1,0 +1,45 @@
+*{ color: #464646; list-style-type: none;  }
+.logo img{ width: 30%; margin: 44px 60px 48px 192px;}
+
+.accordion-head i{ float: right; font-size: 2.5em;}
+.accordion-head > .collapsed > i:before{content: "\f105";}
+
+.card-header-style {padding: 0 0 0 0; background-color: #ffffff; display: block;}
+
+.card-body-list {min-width: 100%; border-bottom: solid 1px #b9b9b9; border-top: solid 1px #b9b9b9; background-color: #f9f9f9;}
+.card-body-list ul {width:60%; margin-left: 40%; padding: 0;}  
+.card-body-list ul li{ margin: 12px 0; text-align: left; }  
+.card-body-list ul li a{margin-left: 5px;  text-decoration: none; font-family: Roboto; font-size: 14px;}
+.card-body-list ul li a:hover{font-weight: 500; color:#464646;}
+.card-body-list ul li:hover{ border-left: solid 3px #ed0f69; } 
+
+
+.link-area{min-width: 100%; text-decoration: none; font-family: Roboto;  font-size: 16px; color: #464646; background-color: #ffffff; } 
+
+.icon{padding-right: 10px; float: right; color: #ed0f69;}
+ 
+
+@media (max-width: 575.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%;}
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left; } 
+    
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%;}
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left; } 
+    
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%;} 
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left; } 
+    
+ }
+  
+  
+
+

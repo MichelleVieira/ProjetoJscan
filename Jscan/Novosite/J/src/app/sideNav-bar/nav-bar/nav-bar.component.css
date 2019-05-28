@@ -1,0 +1,29 @@
+.nav-style{
+    height: 1%;
+   
+     background-color: #DCDCDC;
+    }
+.nav-style-text a{
+    margin-top: 24px; 
+     font-weight: bold; 
+     color:#f9f9f9;
+     font-family: 'Raleway', sans-serif;
+    }
+
+.Button-style{
+    padding: 5px 10px 5px  10px;
+    font-size: 12px; 
+    font-weight:bolder; 
+    border-radius: 10px; 
+    background-color: #87CEEB;
+    width: 100px;
+    height: 30px;
+    border-color: #87CEEB;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nome{
+    font-family: 'Raleway', sans-serif;  
+
+}
+  

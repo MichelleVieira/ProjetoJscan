@@ -1,0 +1,54 @@
+*{ color: #464646; list-style-type: none; border: none;}
+
+
+.logo img{ width: 50%; margin: 44px 60px 48px 80px;}
+
+.accordion-head i{ float: right; font-size: 2.5em;}  
+.accordion-head > .collapsed > i:before{content: "\f105"; }
+
+.card{ min-width: 100%;background-color:#f9f9f9;}
+.card-header-style { height: 56px; border-top:solid  rgba(119, 120, 123, 0.07); border-bottom:solid  rgba(119, 120, 123, 0.07); background-color: #ffffff;  display: block;}
+
+
+.card-body-list ul {width:100%;  padding: 0; }  
+.card-body-list ul li{ margin: 12px 0 0 80px;; text-align: left; }   
+.card-body-list ul li a{margin-left: 5px;  text-decoration: none;  font-weight: bold; font-size: 15px; color:#464646;}
+.card-body-list ul li a:focus{  font-weight: bold; color: #87CEEB;}
+.card-body-list ul li:focus-within {border-left: solid 4px #87CEEB;  }
+
+.link-area{min-width: 100%;  text-decoration: none; font-family:'Raleway', sans-serif;  font-size: 16px; font-weight:bolder;  color: #87CEEB; padding: 0; height: 100%; position: relative; text-align: center;}
+
+.icon{padding-right: 10px; float: right; color: #ed0f69; position: absolute; right: 8%; top: 35%;}
+   
+.rotate-icon:hover  { transform: rotate(180deg);
+    /* -moz-transform: scale(0.8) rotate(180deg);
+    -webkit-transform: scale(0.8) rotate(180deg);
+    -o-transform: scale(0.8) rotate(180deg);
+    -ms-transform: scale(0.8) rotate(180deg);
+    transform: scale(0.8) rotate(180deg); */
+} 
+
+@media (max-width: 575.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%; }
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left;} 
+    
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%; }
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left; } 
+    
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .logo img { width: 50%; margin: 5% 20% 5% 20%;} 
+    .card-body-list ul {width: 100%; margin:0 0 20px 20px; padding: 0;}  
+    .card-body-list ul li{margin: 0; padding: 0; text-align: left;} 
+    
+ }
+  
+  
+
+

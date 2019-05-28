@@ -1,0 +1,10 @@
+Model\Computador.class
+DAL\OshiInfoDAO.class
+OSHI\PcLeitura.class
+DAL\OshiReadDAO.class
+DAL\UserDAO.class
+Model\Funcionario.class
+DAL\config\Database.class
+DAL\IDAO.class
+Model\LeituraPc.class
+OSHI\PcInfo.class

@@ -1,0 +1,27 @@
+
+<div>
+    <div id="logreg-forms">
+        <form class="form-signin" [formGroup]="loginForm">
+            <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Login</h1>
+            <br>
+            <br>
+            <input type="email" id="inputEmail" class="form-control" name="login" formControlName="email" placeholder="Email address" required="" autofocus="">
+            <input type="password" id="inputPassword" class="form-control" name="senha" formControlName="senha" placeholder="Password" required="">
+            <br>
+            <button class="btn btn-success btn-block" (click)="logar()">
+                    <i class="fas fa-sign-in-alt"></i> Sign in
+                    <span [ngClass]="{ 'desaparece': !mostrarSpinner }" class="spinner-border spinner-border-sm"></span>
+            </button>
+
+            <!-- 
+                será feito?
+                <a href="#" id="forgot_pswd">Forgot password?</a> 
+                -->
+            <hr>
+            <!-- <p>Don't have an account!</p>  -->
+            <button class="btn btn-primary btn-block" routerLink="/register" type="button" id="btn-signup">
+                Registrar-se
+            </button>
+      </form>      
+</div>
+</div>

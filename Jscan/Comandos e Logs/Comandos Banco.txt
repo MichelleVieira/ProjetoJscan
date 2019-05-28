@@ -1,0 +1,73 @@
+create table TB_EMPRESA	(
+	idEmpresa INT IDENTITY(1,1) primary key ,
+    nmEmpresa varchar(45),
+    cdCnpj	varchar(20)
+)
+
+create table TB_TIPO_FUNCIONARIO(
+	idTipo INT IDENTITY(1,1) primary key,
+    nmTipo varchar (45)
+)
+
+create table TB_API (
+	idApi INT IDENTITY(1,1) primary key,
+    dsApi varchar(45),
+    tpApi varchar(45),
+    nmApi varchar(45)
+)
+
+create table TB_LEITURA_API(
+	idLeitura INT IDENTITY(1,1) primary key,
+    dtRegistro datetime,
+    ativo bit,
+    idapi int,
+    foreign key (idApi) references TB_API(idApi)
+)
+
+create table TB_COMPUTADOR(
+	idComputador INT IDENTITY(1,1) primary key,
+    nmComputador float(10),
+    nmSistemaOperacional float(10),
+    nmModeloSistema float(10),
+    vlMemoriaRam float(10),
+    vlArmazenamento float(10),
+    nmProcessador float(10),
+    idFuncionario int,
+)
+
+create table TB_LEITURA_PC(
+	idLeitura INT IDENTITY(1,1) primary key,
+    vlLeituraCpu nvarchar(10),
+    vlLeituraMemoria nvarchar(10),
+    vlLeituraArmazenamento nvarchar(10),
+    vlProcesso nvarchar(10),
+    tpAtividade nvarchar(10),
+    mdLeituradisco nvarchar(10),
+    dtRegistro datetime,
+    idComputador int,
+    foreign key (idComputador) references TB_COMPUTADOR(idComputador)
+)
+
+create table TB_FUNCIONARIO(
+	idFuncionario INT IDENTITY(1,1) primary key,
+    nmFuncionario varchar(45),
+    nmCargo varchar(45),
+    nmEmail varchar(45),
+    nmSenha varchar(45),
+    idEmpresa int,
+    idGestor int,
+    idTipo int,
+	foreign key (idEmpresa) references TB_EMPRESA(idEmpresa),
+    foreign key (idFuncionario) references TB_FUNCIONARIO(idFuncionario),
+    foreign key (idTipo) references TB_TIPO_FUNCIONARIO(idTipo)
+)
+
+create table TB_API_FUNCIONARIO(
+	idApi INT,
+    idFuncionario int,
+    foreign key (IdApi) references TB_API(idApi),
+    foreign key (idFuncionario) references TB_FUNCIONARIO(idFuncionario)
+)
+
+alter table TB_COMPUTADOR
+ADD foreign key (idFuncionario) references TB_FUNCIONARIO(idFuncionario);
