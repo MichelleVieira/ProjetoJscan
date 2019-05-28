@@ -1,10 +1,10 @@
 
-<h4> GRÁFICOS: "Detalhamento do pc"</h4>
+<h4 class="DPC"> GRÁFICOS: "Detalhamento do pc"</h4>
 
-<div class="col-md-4 flex">
+<div class="col-md-4 flex processamento" >
     <p>Processamento</p>
     <div class="flex-item">
-      <div style="display: block;">
+      <div class= "processaento-grafico">
       <canvas baseChart width="40" height="40"
                   [datasets]="lineChartData"
                   [labels]="lineChartLabels"
@@ -19,27 +19,8 @@
     </div>
   </div>
 
-  <div class="col-md-4 flex">
-      <p>Média: Leitura de disco</p>
-    <div class="flex-item">
-      <div style="display: block;">
-      <canvas baseChart width="40" height="40"
-                  [datasets]="lineChartData"
-                  [labels]="lineChartLabels"
-                  [options]="lineChartOptions"
-                  [colors]="lineChartColors"
-                  [legend]="lineChartLegend"
-                  [chartType]="lineChartType"
-                  [plugins]="lineChartPlugins"
-                  (chartHover)="chartHovered($event)"
-                  (chartClick)="chartClicked($event)"></canvas>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="col-md-4 flex">
-      <p>Armazenamento</p>
+  <div class="col-md-4 flex armazenamento" >
+    <p> Disco</p>
       <div class="chart">
         <canvas baseChart
           [data]="pieChartData"
@@ -55,9 +36,9 @@
 
   <br><br>
 
-  <h4>GRÁFICOS: "Detalhamento Api"</h4>
+  <h4 class=" DA">GRÁFICOS: "Detalhamento Api"</h4>
 
-  <div class="col-md-4 flex">
+  <div class="col-md-4 flex processo-api">
       <p>Processo da Api</p>
     <div class="flex-item">
       <div style="display: block;">
@@ -75,9 +56,9 @@
     </div>
   </div>
 
-  <div class="col-md-4 flex">
+  <div class="col-md-4 flex processamento-api">
       <p>Processamento</p>
-    <div class="flex-item">
+    <div class="flex-item ">
       <div style="display: block;">
       <canvas baseChart width="40" height="40"
                   [datasets]="lineChartData"
@@ -93,7 +74,7 @@
     </div>
   </div>
 
-  <div class="col-md-4 flex">
+  <div class="col-md-4 flex memoria-ram">
     <p>Memória ram</p>
     <div class="chart">
       <canvas baseChart

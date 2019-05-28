@@ -11,7 +11,7 @@ import { ActivatedRoute } from '@angular/router';
 })
 export class PcDetailComponent implements OnInit {
   constructor(private chartsService: ChartsDataService, private route: ActivatedRoute,){
-    this.pieChartLabels = ['', 'Disponivel'];
+    this.pieChartLabels = ['Armazenamento', 'Disponivel'];
 
   }
  
